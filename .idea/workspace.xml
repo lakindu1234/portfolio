@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="Project card part" />
+    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="Connect JS part" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +81,7 @@
       <updated>1752600590738</updated>
       <workItem from="1752600592225" duration="189000" />
       <workItem from="1752600812540" duration="544000" />
-      <workItem from="1752601726833" duration="410000" />
+      <workItem from="1752601726833" duration="1292000" />
     </task>
     <task id="LOCAL-00001" summary="File Structure">
       <option name="closed" value="true" />
@@ -147,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752602138428</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Contact section">
+      <option name="closed" value="true" />
+      <created>1752602315100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752602315100</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Connect JS part">
+      <option name="closed" value="true" />
+      <created>1752602387493</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752602387493</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +177,8 @@
     <MESSAGE value="Skill section" />
     <MESSAGE value="Project Section" />
     <MESSAGE value="Project card part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project card part" />
+    <MESSAGE value="Contact section" />
+    <MESSAGE value="Connect JS part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connect JS part" />
   </component>
 </project>
