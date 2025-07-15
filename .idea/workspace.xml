@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="File Structure">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="Project card part" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +81,7 @@
       <updated>1752600590738</updated>
       <workItem from="1752600592225" duration="189000" />
       <workItem from="1752600812540" duration="544000" />
-      <workItem from="1752601726833" duration="101000" />
+      <workItem from="1752601726833" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="File Structure">
       <option name="closed" value="true" />
@@ -93,7 +91,63 @@
       <option name="project" value="LOCAL" />
       <updated>1752601109190</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Doctype identify">
+      <option name="closed" value="true" />
+      <created>1752601851593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752601851593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Doctype identify">
+      <option name="closed" value="true" />
+      <created>1752601882172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752601882172</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Name section">
+      <option name="closed" value="true" />
+      <created>1752601972545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752601972545</updated>
+    </task>
+    <task id="LOCAL-00005" summary="about section">
+      <option name="closed" value="true" />
+      <created>1752602015126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752602015126</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Skill section">
+      <option name="closed" value="true" />
+      <created>1752602043224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752602043224</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Project Section">
+      <option name="closed" value="true" />
+      <created>1752602098990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752602098990</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Project card part">
+      <option name="closed" value="true" />
+      <created>1752602138428</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752602138428</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +155,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="File Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Structure" />
+    <MESSAGE value="Doctype identify" />
+    <MESSAGE value="Name section" />
+    <MESSAGE value="about section" />
+    <MESSAGE value="Skill section" />
+    <MESSAGE value="Project Section" />
+    <MESSAGE value="Project card part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project card part" />
   </component>
 </project>
