@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="changes is nav">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="changes Sections" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +94,7 @@
       <workItem from="1752600812540" duration="544000" />
       <workItem from="1752601726833" duration="1292000" />
       <workItem from="1752682881401" duration="341000" />
-      <workItem from="1752686960354" duration="1007000" />
+      <workItem from="1752686960354" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="File Structure">
       <option name="closed" value="true" />
@@ -338,14 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1752687909788</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="changes Sections">
+      <option name="closed" value="true" />
+      <created>1752687995756</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687995756</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Name section" />
     <MESSAGE value="about section" />
     <MESSAGE value="Skill section" />
     <MESSAGE value="Project Section" />
@@ -370,6 +375,7 @@
     <MESSAGE value="change CSS colours" />
     <MESSAGE value="changes" />
     <MESSAGE value="changes is nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes is nav" />
+    <MESSAGE value="changes Sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes Sections" />
   </component>
 </project>
