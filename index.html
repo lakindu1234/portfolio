@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+
+    <!-- ✅ Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
+
 </head>
-<body>
+<body class="bg-[#010124] text-white font-sans">
 
 <header>
     <nav class="navbar">
-        <div class="logo">Lakidu Portfolio </div>
+        <div class="logo">Lakidu Portfolio</div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
@@ -23,29 +28,26 @@
 
 <main>
     <section class="hero">
-        <div class="profile-img"></div> <!-- You can set background-image in CSS -->
-        <h1> Lakidu Minosha </h1>
-        <p> Full Stack DEV / AI & ML Enthusiastic </p>
+        <div class="profile-img"></div>
+        <h1>Hii , I'm Lakidu Minosha </h1>
+        <p>Full Stack DEV / AI & ML Enthusiastic</p>
     </section>
 
     <section id="about">
-        <h2>About Me</h2>
+        <h2 class="text-2xl font-semibold mb-2">About Me</h2>
         <p>
             I'm a passionate developer who loves building web apps and solving real-world problems.
             This portfolio showcases some of my favorite work.
         </p>
     </section>
 
-    <section id = "education">
-        <h2> Education & Experience </h2>
-        <p>
-            Uni scl.
-        </p>
-
+    <section id="education">
+        <h2 class="text-2xl font-semibold mb-2">Education & Experience</h2>
+        <p>Uni scl.</p>
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
+        <h2 class="text-2xl font-semibold mb-2">Skills</h2>
         <div class="skills-container">
             <span>Python</span>
             <span>JavaScript</span>
@@ -58,7 +60,7 @@
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
+        <h2 class="text-2xl font-semibold mb-2">Projects</h2>
         <div class="projects-container">
             <div class="project-card">
                 <div class="project-image"></div>
@@ -66,7 +68,6 @@
                 <p>Track personal expenses and income using this clean web app.</p>
                 <a href="#" class="btn">View Project</a>
             </div>
-
             <div class="project-card">
                 <div class="project-image"></div>
                 <h3>E-commerce Website</h3>
@@ -76,9 +77,8 @@
         </div>
     </section>
 
-
     <section id="contact">
-        <h2>Get In Touch</h2>
+        <h2 class="text-2xl font-semibold mb-4">Get In Touch</h2>
         <form id="contactForm">
             <input type="text" placeholder="Name" required />
             <input type="email" placeholder="Email" required />
@@ -87,7 +87,6 @@
         </form>
     </section>
 </main>
-
 
 <footer>
     <p>© 2024 Your Name. All Rights Reserved.</p>
