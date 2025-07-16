@@ -37,31 +37,15 @@
     text-decoration: underline;
 }
 
-.hero {
-    text-align: center;
-    padding: 4rem 1rem;
-}
-
 .profile-img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
     background-color: gray;
-    margin: 0 auto 1rem;
     background-image: url('assets/my.jpeg');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-}
-
-.hero h1 {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.hero p {
-    color: #a5b4fc;
-    margin-top: 0.5rem;
 }
 
 section {
