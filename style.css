@@ -70,3 +70,17 @@ section {
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: #1f1f4d;
+    padding: 1rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 280px;
+}
