@@ -2,119 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-
-    <!-- ✅ Tailwind CDN -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lakidu Minosha Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body class="bg-[#010124] text-white font-sans">
 
-<header>
-    <nav class="navbar">
-        <div class="logo">Lakidu Portfolio</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
+<!-- Navbar -->
+<header class="bg-black shadow-md">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Lakidu Portfolio</h1>
+        <ul class="flex space-x-6 text-sm font-medium">
+            <li><a href="#about" class="hover:text-indigo-300">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+    </div>
 </header>
 
-<main class="space-y-20">
-    <!-- 1. Hero + About -->
-    <section class="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto px-6">
-        <div class="flex-1 text-center lg:text-left">
-            <div class="profile-img mx-auto lg:mx-0"></div>
-            <h1 class="text-3xl font-bold mt-4">Hi, I'm Lakidu Minosha</h1>
-            <p class="text-indigo-300 mt-2">Full Stack DEV / AI & ML Enthusiastic</p>
-        </div>
-        <div class="flex-1" id="about">
-            <h2 class="text-2xl font-semibold mb-2">About Me</h2>
-            <p>
-                I'm a passionate developer who loves building web apps and solving real-world problems.
-                This portfolio showcases some of my favorite work.
-            </p>
-        </div>
-    </section>
+<!-- Timeline Layout -->
+<main class="py-16 relative">
+    <!-- Vertical Line -->
+    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-red-600 to-indigo-500"></div>
 
-    <!-- Divider Line -->
-    <div class="h-1 w-3/4 mx-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"></div>
-
-    <!-- 2. Education + Skills -->
-    <section class="flex flex-col-reverse lg:flex-row items-center gap-12 max-w-6xl mx-auto px-6">
-        <div class="flex-1" id="education">
-            <h2 class="text-2xl font-semibold mb-2">Education & Experience</h2>
-            <p>Uni scl.</p>
-        </div>
-        <div class="flex-1" id="skills">
-            <h2 class="text-2xl font-semibold mb-2">Skills</h2>
-            <div class="skills-container">
-                <span>Python</span>
-                <span>JavaScript</span>
-                <span>C++</span>
-                <span>VS Code</span>
-                <span>Linux</span>
-                <span>React</span>
-                <span>Node.js</span>
+    <!-- Timeline Item 1: Hero / About -->
+    <section id="about" class="relative flex flex-col md:flex-row items-center md:justify-start mb-16 max-w-6xl mx-auto px-6">
+        <div class="md:w-1/2 md:pr-10">
+            <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-2">Hi, I'm Lakidu Minosha</h2>
+                <p class="text-indigo-300 mb-4">Full Stack DEV / AI & ML Enthusiastic</p>
+                <p>I'm a passionate developer who loves building web apps and solving real-world problems. This portfolio showcases some of my favorite work.</p>
             </div>
         </div>
+        <div class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:ml-6 mt-6 md:mt-0"></div>
     </section>
 
-    <!-- Divider Line -->
-    <div class="h-1 w-3/4 mx-auto bg-gradient-to-r from-pink-500 via-indigo-500 to-teal-400 rounded-full"></div>
+    <!-- Timeline Item 2: Education -->
+    <section id="education" class="relative flex flex-col md:flex-row-reverse items-center md:justify-start mb-16 max-w-6xl mx-auto px-6">
+        <div class="md:w-1/2 md:pl-10">
+            <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-2">Education & Experience</h2>
+                <p class="text-gray-400">University of Westminster<br/>BSc (Hons) in Computer Science</p>
+                <p class="mt-2 text-sm text-gray-300">Focused on Software Engineering, Mobile Development, and Cloud technologies.</p>
+            </div>
+        </div>
+        <div class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:mr-6 mt-6 md:mt-0"></div>
+    </section>
 
-    <!-- 3. Projects -->
-    <section class="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto px-6" id="projects">
-        <div class="flex-1">
-            <h2 class="text-2xl font-semibold mb-2">Projects</h2>
-            <div class="projects-container">
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <h3>Personal Finance Tracker</h3>
-                    <p>Track personal expenses and income using this clean web app.</p>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <h3>E-commerce Website</h3>
-                    <p>An e-commerce platform with user authentication and shopping cart.</p>
-                    <a href="#" class="btn">View Project</a>
+    <!-- Timeline Item 3: Skills -->
+    <section id="skills" class="relative flex flex-col md:flex-row items-center md:justify-start mb-16 max-w-6xl mx-auto px-6">
+        <div class="md:w-1/2 md:pr-10">
+            <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4">Skills</h2>
+                <div class="flex flex-wrap gap-3 text-sm">
+                    <span class="bg-black px-4 py-2 rounded-full">Python</span>
+                    <span class="bg-black px-4 py-2 rounded-full">JavaScript</span>
+                    <span class="bg-black px-4 py-2 rounded-full">C++</span>
+                    <span class="bg-black px-4 py-2 rounded-full">Linux</span>
+                    <span class="bg-black px-4 py-2 rounded-full">React</span>
+                    <span class="bg-black px-4 py-2 rounded-full">Node.js</span>
                 </div>
             </div>
         </div>
-        <div class="flex-1 hidden lg:block">
-            <img src="assets/my.jpeg" alt="project-illustration" class="rounded-xl shadow-lg w-full h-auto object-cover">
-        </div>
+        <div class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:ml-6 mt-6 md:mt-0"></div>
     </section>
 
-    <!-- Divider Line -->
-    <div class="h-1 w-3/4 mx-auto bg-gradient-to-r from-cyan-400 via-indigo-500 to-rose-500 rounded-full"></div>
+    <!-- Timeline Item 4: Projects -->
+    <section id="projects" class="relative flex flex-col md:flex-row-reverse items-center md:justify-start mb-16 max-w-6xl mx-auto px-6">
+        <div class="md:w-1/2 md:pl-10">
+            <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4">Projects</h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="text-lg font-semibold">💰 Personal Finance Tracker</h3>
+                        <p class="text-sm text-gray-300">Track personal expenses and income using this clean web app.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold">🛒 E-commerce Website</h3>
+                        <p class="text-sm text-gray-300">Platform with login, cart, and admin dashboard using React + Node.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:mr-6 mt-6 md:mt-0"></div>
+    </section>
 
-    <!-- 4. Contact Form -->
-    <section class="flex flex-col-reverse lg:flex-row items-center gap-12 max-w-6xl mx-auto px-6" id="contact">
-        <div class="flex-1">
-            <h2 class="text-2xl font-semibold mb-4">Get In Touch</h2>
-            <form id="contactForm">
-                <input type="text" placeholder="Name" required />
-                <input type="email" placeholder="Email" required />
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+    <!-- Timeline Item 5: Contact -->
+    <section id="contact" class="relative flex flex-col md:flex-row items-center md:justify-start mb-16 max-w-6xl mx-auto px-6">
+        <div class="md:w-1/2 md:pr-10">
+            <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4">Get In Touch</h2>
+                <form class="space-y-3">
+                    <input type="text" placeholder="Name" required class="w-full px-4 py-2 rounded bg-black text-white" />
+                    <input type="email" placeholder="Email" required class="w-full px-4 py-2 rounded bg-black text-white" />
+                    <textarea placeholder="Message" required class="w-full px-4 py-2 rounded bg-black text-white"></textarea>
+                    <button type="submit" class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded font-semibold">Send Message</button>
+                </form>
+            </div>
         </div>
-        <div class="flex-1 text-center hidden lg:block">
-            <img src="assets/my.jpeg" alt="contact" class="rounded-lg shadow-xl mx-auto w-2/3">
-        </div>
+        <div class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:ml-6 mt-6 md:mt-0"></div>
     </section>
 </main>
 
-<footer class="mt-20">
-    <p class="text-center py-4 text-sm text-gray-400 bg-[#1a1a40]">© 2024 Your Name. All Rights Reserved.</p>
+<!-- Footer -->
+<footer class="text-center py-6 bg-[#1a1a40] text-gray-400 text-sm">
+    © 2024 Lakidu Minosha. All rights reserved.
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
