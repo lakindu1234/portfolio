@@ -94,3 +94,12 @@ section {
     background-size: cover;
     background-position: center;
 }
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 5px;
+}
