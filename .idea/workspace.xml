@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="Connect JS part" />
+    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="form and form input in css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +83,7 @@
       <workItem from="1752600812540" duration="544000" />
       <workItem from="1752601726833" duration="1292000" />
       <workItem from="1752682881401" duration="341000" />
+      <workItem from="1752686960354" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="File Structure">
       <option name="closed" value="true" />
@@ -164,7 +165,87 @@
       <option name="project" value="LOCAL" />
       <updated>1752602387493</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="CSS General Reset">
+      <option name="closed" value="true" />
+      <created>1752687003892</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687003892</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Css for navbar">
+      <option name="closed" value="true" />
+      <created>1752687031841</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687031841</updated>
+    </task>
+    <task id="LOCAL-00013" summary="CSS nav Link">
+      <option name="closed" value="true" />
+      <created>1752687077691</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687077691</updated>
+    </task>
+    <task id="LOCAL-00014" summary="CSs hero part">
+      <option name="closed" value="true" />
+      <created>1752687093689</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687093689</updated>
+    </task>
+    <task id="LOCAL-00015" summary="CSS profile image and section part">
+      <option name="closed" value="true" />
+      <created>1752687116674</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687116674</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Skill container part">
+      <option name="closed" value="true" />
+      <created>1752687176572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687176572</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Project container and porject card">
+      <option name="closed" value="true" />
+      <created>1752687207624</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687207624</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Project image part">
+      <option name="closed" value="true" />
+      <created>1752687226438</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687226438</updated>
+    </task>
+    <task id="LOCAL-00019" summary="CSs btn part">
+      <option name="closed" value="true" />
+      <created>1752687244989</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687244989</updated>
+    </task>
+    <task id="LOCAL-00020" summary="form and form input in css">
+      <option name="closed" value="true" />
+      <created>1752687265369</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687265369</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +261,16 @@
     <MESSAGE value="Project card part" />
     <MESSAGE value="Contact section" />
     <MESSAGE value="Connect JS part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connect JS part" />
+    <MESSAGE value="CSS General Reset" />
+    <MESSAGE value="Css for navbar" />
+    <MESSAGE value="CSS nav Link" />
+    <MESSAGE value="CSs hero part" />
+    <MESSAGE value="CSS profile image and section part" />
+    <MESSAGE value="Skill container part" />
+    <MESSAGE value="Project container and porject card" />
+    <MESSAGE value="Project image part" />
+    <MESSAGE value="CSs btn part" />
+    <MESSAGE value="form and form input in css" />
+    <option name="LAST_COMMIT_MESSAGE" value="form and form input in css" />
   </component>
 </project>
