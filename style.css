@@ -23,3 +23,14 @@ a {
     padding: 1rem 2rem;
     background-color: #1a1a40;
 }
+
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
