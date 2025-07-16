@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="profile image">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="file changes">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <workItem from="1752600812540" duration="544000" />
       <workItem from="1752601726833" duration="1292000" />
       <workItem from="1752682881401" duration="341000" />
-      <workItem from="1752686960354" duration="500000" />
+      <workItem from="1752686960354" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="File Structure">
       <option name="closed" value="true" />
@@ -271,7 +271,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752687327741</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="file changes">
+      <option name="closed" value="true" />
+      <created>1752687478777</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687478777</updated>
+    </task>
+    <task id="LOCAL-00025" summary="file changes">
+      <option name="closed" value="true" />
+      <created>1752687519194</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1752687519194</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +316,7 @@
     <MESSAGE value="form button" />
     <MESSAGE value="footer part" />
     <MESSAGE value="profile image" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile image" />
+    <MESSAGE value="file changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="file changes" />
   </component>
 </project>
