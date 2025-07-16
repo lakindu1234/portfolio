@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="add tailwin css and modify the code">
+    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="Modifications">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1752600812540" duration="544000" />
       <workItem from="1752601726833" duration="1292000" />
       <workItem from="1752682881401" duration="341000" />
-      <workItem from="1752686960354" duration="2673000" />
+      <workItem from="1752686960354" duration="2768000" />
     </task>
     <task id="LOCAL-00001" summary="File Structure">
       <option name="closed" value="true" />
@@ -380,14 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1752689056075</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Modifications">
+      <option name="closed" value="true" />
+      <created>1752689669135</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1752689669135</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project Section" />
     <MESSAGE value="Project card part" />
     <MESSAGE value="Contact section" />
     <MESSAGE value="Connect JS part" />
@@ -412,6 +418,7 @@
     <MESSAGE value="changes Sections" />
     <MESSAGE value="Normal improvemnts" />
     <MESSAGE value="add tailwin css and modify the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tailwin css and modify the code" />
+    <MESSAGE value="Modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications" />
   </component>
 </project>
