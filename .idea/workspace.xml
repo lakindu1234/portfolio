@@ -60,7 +60,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "liveEdit",
+    "settings.editor.splitter.proportion": "0.36558044",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,7 +98,7 @@
       <workItem from="1752600812540" duration="544000" />
       <workItem from="1752601726833" duration="1292000" />
       <workItem from="1752682881401" duration="341000" />
-      <workItem from="1752686960354" duration="2058000" />
+      <workItem from="1752686960354" duration="2673000" />
     </task>
     <task id="LOCAL-00001" summary="File Structure">
       <option name="closed" value="true" />
@@ -371,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752688884356</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add tailwin css and modify the code">
+      <option name="closed" value="true" />
+      <created>1752689056075</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1752689056075</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
