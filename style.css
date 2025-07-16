@@ -11,3 +11,15 @@ body {
     color: #ffffff;
     line-height: 1.6;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #1a1a40;
+}
