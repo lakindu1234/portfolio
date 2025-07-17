@@ -1,63 +1,56 @@
-/* Reset (Optional) */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* style.css */
+
+/* Smooth fade for AOS animations on users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    [data-aos] {
+        transition: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
 }
 
-/* Navbar Styling */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 2rem;
-    background-color: black;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+/* Optional: Customize scrollbar for a nicer UI */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-track {
+    background: #010124;
+}
+body::-webkit-scrollbar-thumb {
+    background: #4f46e5; /* Indigo-ish */
+    border-radius: 4px;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #6366f1; /* Lighter Indigo */
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+/* Optional: Prevent text selection on footer */
+footer {
+    user-select: none;
 }
 
-.nav-links {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
+/* Optional: Add a subtle background gradient on body */
+body {
+    background: linear-gradient(135deg, #010124 0%, #1a1a40 100%);
+    min-height: 100vh;
 }
 
-.nav-links a {
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
+/* Add subtle shadow to images */
+img {
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.6);
 }
 
-.nav-links a:hover {
-    color: #a5b4fc;
-    text-decoration: underline;
+/* Optional: Customize links globally */
+a {
+    transition: color 0.3s ease;
 }
 
-/* Profile Image in Hero */
-.profile-img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    background-image: url('assets/my.jpeg'); /* Replace with your image */
-    background-size: cover;
-    background-position: center;
-    background-color: gray;
-    margin: 0 auto;
-    box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+a:hover {
+    color: #818cf8; /* Tailwind indigo-400 */
 }
 
-/* Optional: Form Input Styling (fallback if Tailwind fails) */
-input,
-textarea {
-    outline: none;
-}
-
-input:focus,
-textarea:focus {
-    border: 2px solid #4f46e5;
+/* Optional: Enhance focus outlines for accessibility */
+:focus-visible {
+    outline: 2px solid #818cf8;
+    outline-offset: 2px;
 }

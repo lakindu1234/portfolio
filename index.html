@@ -2,23 +2,57 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Lakidu Minosha Portfolio</title>
+
+        <!-- Tailwind CDN -->
         <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- AOS CSS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css" />
+
+        <!-- Smooth scrolling -->
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
     </head>
 
     <body class="bg-[#010124] text-white font-sans">
         <!-- Navbar -->
-        <header class="bg-black shadow-md">
+        <header class="bg-black shadow-md sticky top-0 z-50">
             <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
                 <h1 class="text-2xl font-bold">Lakidu Portfolio</h1>
                 <ul class="flex space-x-6 text-sm font-medium">
-                    <li><a href="#about" class="hover:text-indigo-300">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="#about" class="hover:text-indigo-400 transition duration-300"
+                            >About</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#education" class="hover:text-indigo-400 transition duration-300"
+                            >Education</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#skills" class="hover:text-indigo-400 transition duration-300"
+                            >Skills</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#projects" class="hover:text-indigo-400 transition duration-300"
+                            >Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#contact" class="hover:text-indigo-400 transition duration-300"
+                            >Contact</a
+                        >
+                    </li>
                 </ul>
             </div>
         </header>
@@ -26,7 +60,7 @@
         <!-- Main Content -->
         <main class="py-16">
             <!-- About Section -->
-            <section id="about" class="max-w-6xl mx-auto px-6 mb-16">
+            <section id="about" class="max-w-6xl mx-auto px-6 mb-16" data-aos="fade-up">
                 <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
                     <!-- Text Left -->
                     <div class="md:w-1/2">
@@ -54,8 +88,10 @@
                 </div>
             </section>
 
+            <hr class="border-t border-indigo-800 my-12 opacity-20" />
+
             <!-- Timeline Layout ONLY for Education -->
-            <div class="relative max-w-6xl mx-auto px-6 mb-16">
+            <div class="relative max-w-6xl mx-auto px-6 mb-16" data-aos="fade-left">
                 <!-- Vertical Line -->
                 <div
                     class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-red-600 to-indigo-500"
@@ -65,6 +101,7 @@
                 <section
                     id="education"
                     class="relative flex flex-col md:flex-row items-center md:justify-start"
+                    data-aos="fade-up"
                 >
                     <div class="md:w-1/2 md:pr-10">
                         <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
@@ -89,13 +126,16 @@
                 <section
                     id="education"
                     class="relative flex flex-col md:flex-row-reverse items-center md:justify-start"
+                    data-aos="fade-up"
                 >
                     <div class="md:w-1/2 md:pl-10">
                         <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
                             <h2 class="text-2xl font-bold mb-2">
                                 President of School New Innovation Club
                             </h2>
+
                             <p class="text-gray-400">Active Member of School IT Club<br /></p>
+
                             <p class="mt-2 text-sm text-gray-300">
                                 Work as the president of the New Innovation Club and an active
                                 member of the IT Club.
@@ -112,6 +152,7 @@
                 <section
                     id="education"
                     class="relative flex flex-col md:flex-row items-center md:justify-start"
+                    data-aos="fade-up"
                 >
                     <div class="md:w-1/2 md:pr-10">
                         <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
@@ -130,36 +171,71 @@
                 </section>
             </div>
 
+            <hr class="border-t border-indigo-800 my-12 opacity-20" />
+
             <!-- Skills Section -->
-            <section id="skills" class="max-w-6xl mx-auto px-6 mb-16">
+            <section id="skills" class="max-w-6xl mx-auto px-6 mb-16" data-aos="fade-right">
                 <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
                     <h2 class="text-2xl font-bold mb-4">Skills</h2>
                     <div class="flex flex-wrap gap-3 text-sm">
-                        <span class="bg-black px-4 py-2 rounded-full">Python</span>
-                        <span class="bg-black px-4 py-2 rounded-full">Java</span>
-                        <span class="bg-black px-4 py-2 rounded-full">JavaScript</span>
-                        <span class="bg-black px-4 py-2 rounded-full">Flutter</span>
-                        <span class="bg-black px-4 py-2 rounded-full">Linux</span>
-                        <span class="bg-black px-4 py-2 rounded-full">React</span>
-                        <span class="bg-black px-4 py-2 rounded-full">Flask</span>
-                        <span class="bg-black px-4 py-2 rounded-full">GIT</span>
-                        <span class="bg-black px-4 py-2 rounded-full">Kotlin</span>
+                        <span
+                            class="bg-black px-4 py-2 rounded-full transition duration-300 hover:bg-indigo-600 hover:text-white cursor-pointer"
+                            >Python</span
+                        >
+                        <span
+                            class="bg-black px-4 py-2 rounded-full transition duration-300 hover:bg-indigo-600 hover:text-white cursor-pointer"
+                            >Java</span
+                        >
+                        <span
+                            class="bg-black px-4 py-2 rounded-full transition duration-300 hover:bg-indigo-600 hover:text-white cursor-pointer"
+                            >JavaScript</span
+                        >
+                        <span
+                            class="bg-black px-4 py-2 rounded-full transition duration-300 hover:bg-indigo-600 hover:text-white cursor-pointer"
+                            >Flutter</span
+                        >
+                        <span
+                            class="bg-black px-4 py-2 rounded-full transition duration-300 hover:bg-indigo-600 hover:text-white cursor-pointer"
+                            >Linux</span
+                        >
+                        <span
+                            class="bg-black px-4 py-2 rounded-full transition duration-300 hover:bg-indigo-600 hover:text-white cursor-pointer"
+                            >React</span
+                        >
+                        <span
+                            class="bg-black px-4 py-2 rounded-full transition duration-300 hover:bg-indigo-600 hover:text-white cursor-pointer"
+                            >Flask</span
+                        >
+                        <span
+                            class="bg-black px-4 py-2 rounded-full transition duration-300 hover:bg-indigo-600 hover:text-white cursor-pointer"
+                            >GIT</span
+                        >
+                        <span
+                            class="bg-black px-4 py-2 rounded-full transition duration-300 hover:bg-indigo-600 hover:text-white cursor-pointer"
+                            >Kotlin</span
+                        >
                     </div>
                 </div>
             </section>
 
+            <hr class="border-t border-indigo-800 my-12 opacity-20" />
+
             <!-- Projects Section -->
-            <section id="projects" class="max-w-6xl mx-auto px-6 mb-16">
+            <section id="projects" class="max-w-6xl mx-auto px-6 mb-16" data-aos="fade-left">
                 <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
                     <h2 class="text-2xl font-bold mb-4">Projects</h2>
                     <div class="space-y-4">
-                        <div>
+                        <div
+                            class="transition transform hover:scale-[1.02] hover:shadow-lg p-4 rounded-lg bg-[#121238]"
+                        >
                             <h3 class="text-lg font-semibold">💰 Personal Finance Tracker</h3>
                             <p class="text-sm text-gray-300">
                                 Track personal expenses and income using this clean web app.
                             </p>
                         </div>
-                        <div>
+                        <div
+                            class="transition transform hover:scale-[1.02] hover:shadow-lg p-4 rounded-lg bg-[#121238]"
+                        >
                             <h3 class="text-lg font-semibold">🛒 E-commerce Website</h3>
                             <p class="text-sm text-gray-300">
                                 Platform with login, cart, and admin dashboard using React + Node.
@@ -169,8 +245,10 @@
                 </div>
             </section>
 
+            <hr class="border-t border-indigo-800 my-12 opacity-20" />
+
             <!-- Contact Section -->
-            <section id="contact" class="max-w-6xl mx-auto px-6 mb-16">
+            <section id="contact" class="max-w-6xl mx-auto px-6 mb-16" data-aos="zoom-in">
                 <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
                     <h2 class="text-2xl font-bold mb-4">Get In Touch</h2>
                     <form class="space-y-3">
@@ -193,7 +271,7 @@
                         ></textarea>
                         <button
                             type="submit"
-                            class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded font-semibold"
+                            class="bg-red-600 hover:bg-red-700 transition duration-300 transform hover:scale-105 px-6 py-2 rounded font-semibold"
                         >
                             Send Message
                         </button>
@@ -203,8 +281,12 @@
         </main>
 
         <!-- Footer -->
-        <footer class="text-center py-6 bg-[#1a1a40] text-gray-400 text-sm">
+        <footer class="text-center py-6 bg-[#1a1a40] text-gray-400 text-sm select-none">
             © 2024 Lakidu Minosha. All rights reserved.
         </footer>
+
+        <!-- AOS JS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
