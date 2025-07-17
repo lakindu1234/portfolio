@@ -22,148 +22,117 @@
             </div>
         </header>
 
-        <!-- Timeline Layout -->
-
-        
-        <main class="py-16 relative">
-            <!-- Vertical Line -->
-            <div
-                class="absolute top-0 left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-red-600 to-indigo-500"
-            ></div>
-
-            <!-- Timeline Item 1: Hero / About -->
-            <section
-                id="about"
-                class="relative flex flex-col md:flex-row items-center md:justify-start mb-16 max-w-6xl mx-auto px-6"
-            >
-                <div class="md:w-1/2 md:pr-10">
-                    <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                        <h2 class="text-2xl font-bold mb-2">Hi, I'm Lakidu Minosha</h2>
-                        <p class="text-indigo-300 mb-4">Full Stack DEV / AI & ML Enthusiastic</p>
-                        <p>
-                            I'm a passionate developer who loves building web apps and solving
-                            real-world problems. This portfolio showcases some of my favorite work.
-                        </p>
-                    </div>
+        <!-- Main Content -->
+        <main class="py-16">
+            <!-- About Section -->
+            <section id="about" class="max-w-6xl mx-auto px-6 mb-16">
+                <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg text-center">
+                    <h2 class="text-2xl font-bold mb-2">Hi, I'm Lakidu Minosha</h2>
+                    <p class="text-indigo-300 mb-4">Full Stack DEV / AI & ML Enthusiastic</p>
+                    <p>
+                        I'm a passionate developer who loves building web apps and solving
+                        real-world problems. This portfolio showcases some of my favorite work.
+                    </p>
                 </div>
-                <div
-                    class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:ml-6 mt-6 md:mt-0"
-                ></div>
             </section>
 
-            <!-- Timeline Item 2: Education -->
-            <section
-                id="education"
-                class="relative flex flex-col md:flex-row-reverse items-center md:justify-start mb-16 max-w-6xl mx-auto px-6"
-            >
-                <div class="md:w-1/2 md:pl-10">
-                    <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                        <h2 class="text-2xl font-bold mb-2">Education & Experience</h2>
-                        <p class="text-gray-400">
-                            University of Westminster<br />BSc (Hons) in Computer Science
-                        </p>
-                        <p class="mt-2 text-sm text-gray-300">
-                            Focused on Software Engineering, Mobile Development, and Cloud
-                            technologies.
-                        </p>
+            <!-- Timeline Layout ONLY for Education -->
+            <div class="relative max-w-6xl mx-auto px-6 mb-16">
+                <!-- Vertical Line -->
+                <div
+                    class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-red-600 to-indigo-500"
+                ></div>
+
+                <!-- Timeline Item: Education -->
+                <section
+                    id="education"
+                    class="relative flex flex-col md:flex-row-reverse items-center md:justify-start"
+                >
+                    <div class="md:w-1/2 md:pl-10">
+                        <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
+                            <h2 class="text-2xl font-bold mb-2">Education & Experience</h2>
+                            <p class="text-gray-400">
+                                🎓 University of Westminster<br />
+                                BSc (Hons) in Computer Science
+                            </p>
+                            <p class="mt-2 text-sm text-gray-300">
+                                Focused on Software Engineering, Mobile Development, and Cloud
+                                technologies.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:mr-6 mt-6 md:mt-0"
+                    ></div>
+                </section>
+            </div>
+
+            <!-- Skills Section -->
+            <section id="skills" class="max-w-6xl mx-auto px-6 mb-16">
+                <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
+                    <h2 class="text-2xl font-bold mb-4">Skills</h2>
+                    <div class="flex flex-wrap gap-3 text-sm">
+                        <span class="bg-black px-4 py-2 rounded-full">Python</span>
+                        <span class="bg-black px-4 py-2 rounded-full">JavaScript</span>
+                        <span class="bg-black px-4 py-2 rounded-full">C++</span>
+                        <span class="bg-black px-4 py-2 rounded-full">Linux</span>
+                        <span class="bg-black px-4 py-2 rounded-full">React</span>
+                        <span class="bg-black px-4 py-2 rounded-full">Node.js</span>
                     </div>
                 </div>
-                <div
-                    class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:mr-6 mt-6 md:mt-0"
-                ></div>
             </section>
 
-            <!-- Timeline Item 3: Skills -->
-            <section
-                id="skills"
-                class="relative flex flex-col md:flex-row items-center md:justify-start mb-16 max-w-6xl mx-auto px-6"
-            >
-                <div class="md:w-1/2 md:pr-10">
-                    <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                        <h2 class="text-2xl font-bold mb-4">Skills</h2>
-                        <div class="flex flex-wrap gap-3 text-sm">
-                            <span class="bg-black px-4 py-2 rounded-full">Python</span>
-                            <span class="bg-black px-4 py-2 rounded-full">JavaScript</span>
-                            <span class="bg-black px-4 py-2 rounded-full">C++</span>
-                            <span class="bg-black px-4 py-2 rounded-full">Linux</span>
-                            <span class="bg-black px-4 py-2 rounded-full">React</span>
-                            <span class="bg-black px-4 py-2 rounded-full">Node.js</span>
+            <!-- Projects Section -->
+            <section id="projects" class="max-w-6xl mx-auto px-6 mb-16">
+                <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
+                    <h2 class="text-2xl font-bold mb-4">Projects</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="text-lg font-semibold">💰 Personal Finance Tracker</h3>
+                            <p class="text-sm text-gray-300">
+                                Track personal expenses and income using this clean web app.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">🛒 E-commerce Website</h3>
+                            <p class="text-sm text-gray-300">
+                                Platform with login, cart, and admin dashboard using React + Node.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div
-                    class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:ml-6 mt-6 md:mt-0"
-                ></div>
             </section>
 
-            <!-- Timeline Item 4: Projects -->
-            <section
-                id="projects"
-                class="relative flex flex-col md:flex-row-reverse items-center md:justify-start mb-16 max-w-6xl mx-auto px-6"
-            >
-                <div class="md:w-1/2 md:pl-10">
-                    <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                        <h2 class="text-2xl font-bold mb-4">Projects</h2>
-                        <div class="space-y-4">
-                            <div>
-                                <h3 class="text-lg font-semibold">💰 Personal Finance Tracker</h3>
-                                <p class="text-sm text-gray-300">
-                                    Track personal expenses and income using this clean web app.
-                                </p>
-                            </div>
-                            <div>
-                                <h3 class="text-lg font-semibold">🛒 E-commerce Website</h3>
-                                <p class="text-sm text-gray-300">
-                                    Platform with login, cart, and admin dashboard using React +
-                                    Node.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Contact Section -->
+            <section id="contact" class="max-w-6xl mx-auto px-6 mb-16">
+                <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
+                    <h2 class="text-2xl font-bold mb-4">Get In Touch</h2>
+                    <form class="space-y-3">
+                        <input
+                            type="text"
+                            placeholder="Name"
+                            required
+                            class="w-full px-4 py-2 rounded bg-black text-white"
+                        />
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            required
+                            class="w-full px-4 py-2 rounded bg-black text-white"
+                        />
+                        <textarea
+                            placeholder="Message"
+                            required
+                            class="w-full px-4 py-2 rounded bg-black text-white"
+                        ></textarea>
+                        <button
+                            type="submit"
+                            class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded font-semibold"
+                        >
+                            Send Message
+                        </button>
+                    </form>
                 </div>
-                <div
-                    class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:mr-6 mt-6 md:mt-0"
-                ></div>
-            </section>
-
-            <!-- Timeline Item 5: Contact -->
-            <section
-                id="contact"
-                class="relative flex flex-col md:flex-row items-center md:justify-start mb-16 max-w-6xl mx-auto px-6"
-            >
-                <div class="md:w-1/2 md:pr-10">
-                    <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                        <h2 class="text-2xl font-bold mb-4">Get In Touch</h2>
-                        <form class="space-y-3">
-                            <input
-                                type="text"
-                                placeholder="Name"
-                                required
-                                class="w-full px-4 py-2 rounded bg-black text-white"
-                            />
-                            <input
-                                type="email"
-                                placeholder="Email"
-                                required
-                                class="w-full px-4 py-2 rounded bg-black text-white"
-                            />
-                            <textarea
-                                placeholder="Message"
-                                required
-                                class="w-full px-4 py-2 rounded bg-black text-white"
-                            ></textarea>
-                            <button
-                                type="submit"
-                                class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded font-semibold"
-                            >
-                                Send Message
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                <div
-                    class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:ml-6 mt-6 md:mt-0"
-                ></div>
             </section>
         </main>
 

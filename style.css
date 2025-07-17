@@ -52,10 +52,12 @@
 }
 
 /* Optional: Form Input Styling (fallback if Tailwind fails) */
-input, textarea {
+input,
+textarea {
     outline: none;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     border: 2px solid #4f46e5;
 }
