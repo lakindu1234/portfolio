@@ -54,3 +54,28 @@ a:hover {
     outline: 2px solid #818cf8;
     outline-offset: 2px;
 }
+
+/* style.css */
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-track {
+    background: #010124;
+}
+body::-webkit-scrollbar-thumb {
+    background: #4f46e5;
+    border-radius: 4px;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #6366f1;
+}
+
+body {
+    background: linear-gradient(135deg, #010124 0%, #1a1a40 100%);
+    min-height: 100vh;
+}
+
+img {
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.6);
+}
