@@ -9,54 +9,7 @@
     }
 }
 
-/* Optional: Customize scrollbar for a nicer UI */
-body::-webkit-scrollbar {
-    width: 8px;
-}
-body::-webkit-scrollbar-track {
-    background: #010124;
-}
-body::-webkit-scrollbar-thumb {
-    background: #4f46e5; /* Indigo-ish */
-    border-radius: 4px;
-}
-body::-webkit-scrollbar-thumb:hover {
-    background: #6366f1; /* Lighter Indigo */
-}
-
-/* Optional: Prevent text selection on footer */
-footer {
-    user-select: none;
-}
-
-/* Optional: Add a subtle background gradient on body */
-body {
-    background: linear-gradient(135deg, #010124 0%, #1a1a40 100%);
-    min-height: 100vh;
-}
-
-/* Add subtle shadow to images */
-img {
-    box-shadow: 0 4px 10px rgb(0 0 0 / 0.6);
-}
-
-/* Optional: Customize links globally */
-a {
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #818cf8; /* Tailwind indigo-400 */
-}
-
-/* Optional: Enhance focus outlines for accessibility */
-:focus-visible {
-    outline: 2px solid #818cf8;
-    outline-offset: 2px;
-}
-
-/* style.css */
-
+/* Scrollbar Styling */
 body::-webkit-scrollbar {
     width: 8px;
 }
@@ -71,11 +24,49 @@ body::-webkit-scrollbar-thumb:hover {
     background: #6366f1;
 }
 
+/* Body Background */
 body {
     background: linear-gradient(135deg, #010124 0%, #1a1a40 100%);
     min-height: 100vh;
 }
 
+/* Image Shadow */
 img {
-    box-shadow: 0 4px 10px rgb(0 0 0 / 0.6);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Link Styling */
+a {
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #818cf8;
+}
+
+/* Focus outline for accessibility */
+:focus-visible {
+    outline: 2px solid #818cf8;
+    outline-offset: 2px;
+}
+
+/* Footer Unselectable */
+footer {
+    user-select: none;
+}
+
+/* Tool Buttons Styling */
+.tool-button {
+    background: linear-gradient(to right, #6366f1, #ec4899);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 0.8rem 0.5rem;
+    box-shadow: 0 2px 8px rgba(236, 72, 153, 0.3);
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+.tool-button:hover {
+    background: linear-gradient(to right, #ec4899, #6366f1);
+    transform: scale(1.05) translateY(-2px);
+    box-shadow: 0 4px 14px rgba(236, 72, 153, 0.4);
 }
