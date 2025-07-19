@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Lakidu Minosha||Portfolio</title>
+        <title>Lakidu Minosha || Portfolio</title>
 
         <!-- Tailwind CDN -->
         <script src="https://cdn.tailwindcss.com"></script>
@@ -11,51 +11,61 @@
         <!-- AOS CSS -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
+        <!-- Font Awesome for icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+
         <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css" />
-
-        <!-- Smooth scrolling -->
 
         <style>
             html {
                 scroll-behavior: smooth;
             }
         </style>
-
     </head>
 
-    <body class="bg-[#010124] text-white font-sans">
+    <body class="bg-[#010124] text-white font-sans overflow-x-hidden">
+        <!-- Animated Background Particles -->
+        <div class="particles-bg"></div>
+
         <!-- Navbar -->
-        <header class="bg-black shadow-md sticky top-0 z-50">
+        <header
+            class="bg-black/90 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-indigo-800/30"
+        >
             <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-                <h1 class="text-2xl font-bold">Lakidu Portfolio</h1>
-                <ul class="flex space-x-6 text-sm font-medium">
-                    <li>
-                        <a href="#about" class="hover:text-indigo-400 transition duration-300"
-                            >About</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#education" class="hover:text-indigo-400 transition duration-300"
-                            >Education</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#skills" class="hover:text-indigo-400 transition duration-300"
-                            >Skills</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#projects" class="hover:text-indigo-400 transition duration-300"
-                            >Projects</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#contact" class="hover:text-indigo-400 transition duration-300"
-                            >Contact</a
-                        >
-                    </li>
-                </ul>
+                <h1 class="text-2xl font-bold gradient-text">Lakidu Portfolio</h1>
+                <nav>
+                    <ul class="flex space-x-6 text-sm font-medium">
+                        <li>
+                            <a href="#about" class="nav-link">
+                                <i class="fas fa-user mr-2"></i>About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#education" class="nav-link">
+                                <i class="fas fa-graduation-cap mr-2"></i>Education
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="nav-link">
+                                <i class="fas fa-code mr-2"></i>Skills
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="nav-link">
+                                <i class="fas fa-project-diagram mr-2"></i>Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link">
+                                <i class="fas fa-envelope mr-2"></i>Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -66,319 +76,509 @@
                 <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
                     <!-- Text Left -->
                     <div class="md:w-1/2">
-                        <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg text-left">
-                            <h2 class="text-3xl font-bold mb-2">Hi, I'm Lakidu Minosha</h2>
-                            <p class="text-indigo-300 mb-4 text-lg">
-                                Full Stack DEV / AI & ML Enthusiast
+                        <div class="glass-card p-8 rounded-xl shadow-lg text-left">
+                            <h2 class="text-4xl font-bold mb-3 gradient-text">
+                                Hi, I'm Lakidu Minosha
+                            </h2>
+                            <p class="text-indigo-300 mb-4 text-xl font-medium">
+                                <i class="fas fa-laptop-code mr-2"></i>Full Stack DEV / AI & ML
+                                Enthusiast
                             </p>
-                            <p class="text-gray-300">
+                            <p class="text-gray-300 text-lg leading-relaxed">
                                 I'm a passionate developer who loves building web apps and solving
                                 real-world problems. This portfolio showcases some of my favorite
-                                work.
+                                work and journey in technology.
                             </p>
+                            <div class="mt-6 flex space-x-4">
+                                <button class="glow-button">
+                                    <i class="fas fa-download mr-2"></i>Download CV
+                                </button>
+                                <button class="outline-button">
+                                    <i class="fas fa-eye mr-2"></i>View Projects
+                                </button>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Image Right -->
                     <div class="md:w-1/2 flex justify-center">
-                        <img
-                            src="./assets/my.jpeg"
-                            alt="Lakidu Minosha"
-                            class="rounded-xl shadow-lg w-72 h-auto object-cover"
-                        />
+                        <div class="floating-image">
+                            <img
+                                src="./assets/my.jpeg"
+                                alt="Lakidu Minosha"
+                                class="rounded-xl shadow-2xl w-80 h-auto object-cover border-4 border-indigo-500/30"
+                                onerror="this.src='https://via.placeholder.com/300x400/4338ca/ffffff?text=Lakidu+Minosha'"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>
 
-
-
-            <h2 class="text-3xl font-bold text-center w-full mb-12">Education & Experience</h2>
-
-
-            <hr class="border-t border-indigo-800 my-12 opacity-20" />
-
-            <!-- Timeline Layout ONLY for Education -->
-            <div class="relative max-w-6xl mx-auto px-6 mb-16" data-aos="fade-left">
-                <!-- Vertical Line -->
-                <div
-                    class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-red-600 to-indigo-500"
-                ></div>
-
-
-                <!-- Timeline Item: Education -->
-                <section
-                    id="education"
-                    class="relative flex flex-col md:flex-row items-center md:justify-start"
-                    data-aos="fade-up"
-                >
-                    <div class="md:w-1/2 md:pr-10">
-                        <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                            <h2 class="text-2xl font-bold mb-2">College</h2>
-                            <p class="text-gray-400">
-                                Central College Kuliyapitiya <br />
-                                2017 - 2022
-                            </p>
-                            <p class="mt-2 text-sm text-gray-300">
-                                Complete the ordinary level and engage in some college clubs and
-                                societies.
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:ml-6 mt-6 md:mt-0"
-                    ></div>
-                </section>
-
-                <br />
-
-                <section
-                    id="education"
-                    class="relative flex flex-col md:flex-row-reverse items-center md:justify-start"
-                    data-aos="fade-up"
-                >
-                    <div class="md:w-1/2 md:pl-10">
-                        <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                            <h2 class="text-2xl font-bold mb-2">
-                                President of School New Innovation Club
-                            </h2>
-
-                            <p class="text-gray-400">Active Member of School IT Club<br /></p>
-
-                            <p class="mt-2 text-sm text-gray-300">
-                                Work as the president of the New Innovation Club and an active
-                                member of the IT Club.
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:mr-6 mt-6 md:mt-0"
-                    ></div>
-                </section>
-
-                <br />
-
-                <section
-                    id="education"
-                    class="relative flex flex-col md:flex-row items-center md:justify-start"
-                    data-aos="fade-up"
-                >
-                    <div class="md:w-1/2 md:pr-10">
-                        <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                            <h2 class="text-2xl font-bold mb-2">
-                                Full Foundation @ IIT
-                            </h2>
-                            <p class="text-gray-400"> Complete Full Foundation <br /></p>
-                            <p class="mt-2 text-sm text-gray-300">
-                                Focused on Basic Programming Concepts
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:ml-6 mt-6 md:mt-0"
-                    ></div>
-                </section>
-
-                <section
-                    id="education"
-                    class="relative flex flex-col md:flex-row-reverse items-center md:justify-start"
-                    data-aos="fade-up"
-                >
-                    <div class="md:w-1/2 md:pl-10">
-                        <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                            <h2 class="text-2xl font-bold mb-2">
-                                Undergraduate BSc (Hons) Computer Science
-                            </h2>
-
-                            <p class="text-gray-400">🎓 University of Westminster<br /></p>
-
-                            <p class="mt-2 text-sm text-gray-300">
-                                Focused on Full Stack Development, Cloud technologies and AI and ML
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="w-8 h-8 border-4 border-red-600 rounded-full bg-[#010124] z-10 md:mr-6 mt-6 md:mt-0"
-                    ></div>
-                </section>
-
-                </section>
+            <!-- Section Divider -->
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="section-divider"></div>
             </div>
 
-            <hr class="border-t border-indigo-800 my-12 opacity-20" />
+            <!-- Education Section -->
+            <section class="max-w-6xl mx-auto px-6 mb-16">
+                <h2
+                    class="text-4xl font-bold text-center w-full mb-12 gradient-text"
+                    data-aos="fade-up"
+                >
+                    <i class="fas fa-graduation-cap mr-3"></i>Education & Experience
+                </h2>
 
+                <!-- Timeline Layout -->
+                <div class="relative timeline-container" data-aos="fade-left">
+                    <!-- Vertical Line -->
+                    <div class="timeline-line"></div>
 
-<!-- Skills Section -->
-        <section id="skills" class="max-w-6xl mx-auto px-6 mb-16" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-center mb-10">My Skills</h2>
-            <p class="text-center text-gray-400 mb-10">
-                I've worked with a variety of technologies in the development world. Here's an overview of my technical skills and proficiency levels.
-            </p>
+                    <!-- Timeline Items -->
+                    <div class="timeline-item timeline-left" data-aos="fade-right">
+                        <div class="glass-card p-6 rounded-xl shadow-lg">
+                            <h3 class="text-2xl font-bold mb-2 text-indigo-300">
+                                <i class="fas fa-school mr-2"></i>College
+                            </h3>
+                            <p class="text-gray-400 mb-2">
+                                <i class="fas fa-map-marker-alt mr-2"></i>Central College
+                                Kuliyapitiya
+                            </p>
+                            <p class="text-gray-400 mb-3">
+                                <i class="fas fa-calendar mr-2"></i>2017 - 2022
+                            </p>
+                            <p class="text-sm text-gray-300">
+                                Completed ordinary level education and actively participated in
+                                college clubs and societies.
+                            </p>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
 
-            <div class="grid md:grid-cols-2 gap-10">
-                <!-- Languages -->
-                <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                    <h3 class="text-xl font-semibold mb-4">Languages</h3>
-                    <div class="space-y-4">
-                        <div>
-                            <span>Python</span>
-                            <div class="bg-gray-700 h-2 rounded-full mt-1">
-                                <div class="h-2 bg-indigo-500 rounded-full shadow-md shadow-indigo-500/30" style="width: 90%"></div>
+                    <div class="timeline-item timeline-right" data-aos="fade-left">
+                        <div class="glass-card p-6 rounded-xl shadow-lg">
+                            <h3 class="text-2xl font-bold mb-2 text-indigo-300">
+                                <i class="fas fa-users mr-2"></i>President of Innovation Club
+                            </h3>
+                            <p class="text-gray-400 mb-3">
+                                <i class="fas fa-laptop mr-2"></i>Active Member of School IT Club
+                            </p>
+                            <p class="text-sm text-gray-300">
+                                Served as president of the New Innovation Club and maintained active
+                                membership in the IT Club.
+                            </p>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+
+                    <div class="timeline-item timeline-left" data-aos="fade-right">
+                        <div class="glass-card p-6 rounded-xl shadow-lg">
+                            <h3 class="text-2xl font-bold mb-2 text-indigo-300">
+                                <i class="fas fa-certificate mr-2"></i>Full Foundation @ IIT
+                            </h3>
+                            <p class="text-gray-400 mb-3">
+                                <i class="fas fa-check-circle mr-2"></i>Complete Full Foundation
+                            </p>
+                            <p class="text-sm text-gray-300">
+                                Focused on fundamental programming concepts and software development
+                                principles.
+                            </p>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+
+                    <div class="timeline-item timeline-right" data-aos="fade-left">
+                        <div class="glass-card p-6 rounded-xl shadow-lg">
+                            <h3 class="text-2xl font-bold mb-2 text-indigo-300">
+                                <i class="fas fa-university mr-2"></i>BSc (Hons) Computer Science
+                            </h3>
+                            <p class="text-gray-400 mb-3">
+                                <i class="fas fa-graduation-cap mr-2"></i>University of Westminster
+                            </p>
+                            <p class="text-sm text-gray-300">
+                                Specializing in Full Stack Development, Cloud technologies, AI and
+                                Machine Learning.
+                            </p>
+                        </div>
+                        <div class="timeline-dot active"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Divider -->
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Skills Section -->
+            <section id="skills" class="max-w-6xl mx-auto px-6 mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-center mb-10 gradient-text">
+                    <i class="fas fa-code mr-3"></i>My Skills
+                </h2>
+                <p class="text-center text-gray-400 mb-12 text-lg">
+                    I've worked with a variety of technologies in the development world. Here's an
+                    overview of my technical skills and proficiency levels.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-10">
+                    <!-- Languages -->
+                    <div class="glass-card p-8 rounded-xl shadow-lg" data-aos="fade-right">
+                        <h3 class="text-2xl font-semibold mb-6 text-indigo-300">
+                            <i class="fas fa-code mr-2"></i>Programming Languages
+                        </h3>
+                        <div class="space-y-6">
+                            <div class="skill-item" data-skill="90">
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium"
+                                        ><i class="fab fa-python mr-2"></i>Python</span
+                                    >
+                                    <span class="text-indigo-400">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="88">
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium"
+                                        ><i class="fab fa-js-square mr-2"></i>JavaScript</span
+                                    >
+                                    <span class="text-indigo-400">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" data-width="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="85">
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium"
+                                        ><i class="fab fa-java mr-2"></i>Java</span
+                                    >
+                                    <span class="text-indigo-400">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="80">
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium"
+                                        ><i class="fab fa-android mr-2"></i>Kotlin</span
+                                    >
+                                    <span class="text-indigo-400">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="75">
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium"
+                                        ><i class="fab fa-linux mr-2"></i>Linux</span
+                                    >
+                                    <span class="text-indigo-400">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" data-width="75"></div>
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <span>Java</span>
-                            <div class="bg-gray-700 h-2 rounded-full mt-1">
-                                <div class="h-2 bg-indigo-500 rounded-full shadow-md shadow-indigo-500/30" style="width: 85%"></div>
+                    </div>
+
+                    <!-- Frameworks & Libraries -->
+                    <div class="glass-card p-8 rounded-xl shadow-lg" data-aos="fade-left">
+                        <h3 class="text-2xl font-semibold mb-6 text-indigo-300">
+                            <i class="fas fa-layer-group mr-2"></i>Frameworks & Libraries
+                        </h3>
+                        <div class="space-y-6">
+                            <div class="skill-item" data-skill="90">
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium"
+                                        ><i class="fab fa-flutter mr-2"></i>Flutter</span
+                                    >
+                                    <span class="text-indigo-400">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" data-width="90"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <span>JavaScript</span>
-                            <div class="bg-gray-700 h-2 rounded-full mt-1">
-                                <div class="h-2 bg-indigo-500 rounded-full shadow-md shadow-indigo-500/30" style="width: 88%"></div>
+                            <div class="skill-item" data-skill="85">
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium"
+                                        ><i class="fab fa-react mr-2"></i>React</span
+                                    >
+                                    <span class="text-indigo-400">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" data-width="85"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <span>Kotlin</span>
-                            <div class="bg-gray-700 h-2 rounded-full mt-1">
-                                <div class="h-2 bg-indigo-500 rounded-full shadow-md shadow-indigo-500/30" style="width: 80%"></div>
+                            <div class="skill-item" data-skill="82">
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium"
+                                        ><i class="fas fa-flask mr-2"></i>Flask</span
+                                    >
+                                    <span class="text-indigo-400">82%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" data-width="82"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <span>Linux</span>
-                            <div class="bg-gray-700 h-2 rounded-full mt-1">
-                                <div class="h-2 bg-indigo-500 rounded-full shadow-md shadow-indigo-500/30" style="width: 75%"></div>
+                            <div class="skill-item" data-skill="92">
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium"
+                                        ><i class="fab fa-git-alt mr-2"></i>Git</span
+                                    >
+                                    <span class="text-indigo-400">92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" data-width="92"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <!-- Frameworks & Libraries -->
-                <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                    <h3 class="text-xl font-semibold mb-4">Frameworks & Libraries</h3>
-                    <div class="space-y-4">
-                        <div>
-                            <span>React</span>
-                            <div class="bg-gray-700 h-2 rounded-full mt-1">
-                                <div class="h-2 bg-indigo-500 rounded-full shadow-md shadow-indigo-500/30" style="width: 85%"></div>
-                            </div>
+            <!-- Section Divider -->
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Tools Section -->
+            <section id="tools" class="max-w-6xl mx-auto px-6 mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-center mb-10 gradient-text">
+                    <i class="fas fa-tools mr-3"></i>Development Tools
+                </h2>
+                <p class="text-center text-gray-400 mb-10 text-lg">
+                    Tools and platforms I frequently use in my development workflow.
+                </p>
+                <div class="glass-card p-8 rounded-xl shadow-lg">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
+                        <div class="tool-button" data-aos="zoom-in" data-aos-delay="100">
+                            <i class="fab fa-git-alt text-2xl mb-2"></i>
+                            <span>Git</span>
                         </div>
-                        <div>
-                            <span>Flutter</span>
-                            <div class="bg-gray-700 h-2 rounded-full mt-1">
-                                <div class="h-2 bg-indigo-500 rounded-full shadow-md shadow-indigo-500/30" style="width: 90%"></div>
-                            </div>
+                        <div class="tool-button" data-aos="zoom-in" data-aos-delay="200">
+                            <i class="fas fa-code text-2xl mb-2"></i>
+                            <span>Postman</span>
                         </div>
-                        <div>
-                            <span>Flask</span>
-                            <div class="bg-gray-700 h-2 rounded-full mt-1">
-                                <div class="h-2 bg-indigo-500 rounded-full shadow-md shadow-indigo-500/30" style="width: 82%"></div>
-                            </div>
+                        <div class="tool-button" data-aos="zoom-in" data-aos-delay="300">
+                            <i class="fab fa-docker text-2xl mb-2"></i>
+                            <span>Docker</span>
                         </div>
-                        <div>
-                            <span>GIT</span>
-                            <div class="bg-gray-700 h-2 rounded-full mt-1">
-                                <div class="h-2 bg-indigo-500 rounded-full shadow-md shadow-indigo-500/30" style="width: 92%"></div>
-                            </div>
+                        <div class="tool-button" data-aos="zoom-in" data-aos-delay="400">
+                            <i class="fas fa-code-branch text-2xl mb-2"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="tool-button" data-aos="zoom-in" data-aos-delay="500">
+                            <i class="fab fa-github text-2xl mb-2"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="tool-button" data-aos="zoom-in" data-aos-delay="600">
+                            <i class="fab fa-figma text-2xl mb-2"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="tool-button" data-aos="zoom-in" data-aos-delay="700">
+                            <i class="fas fa-fire text-2xl mb-2"></i>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="tool-button" data-aos="zoom-in" data-aos-delay="800">
+                            <i class="fas fa-cloud text-2xl mb-2"></i>
+                            <span>Netlify</span>
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <!-- Section Divider -->
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="section-divider"></div>
             </div>
-        </section>
-
-         <hr class="border-t border-indigo-800 my-12 opacity-20" />
-
-        <!-- Tools Section -->
-        <section id="tools" class="max-w-6xl mx-auto px-6 mb-16" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-center mb-10">Tools</h2>
-            <p class="text-center text-gray-400 mb-10">
-                Tools and platforms I frequently use in my development workflow.
-            </p>
-            <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                <div
-                    class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center text-sm"
-                >
-                    <div class="tool-button">Git</div>
-                    <div class="tool-button">Postman</div>
-                    <div class="tool-button">Docker</div>
-                    <div class="tool-button">VS Code</div>
-                    <div class="tool-button">GitHub</div>
-                    <div class="tool-button">Figma</div>
-                    <div class="tool-button">Firebase</div>
-                    <div class="tool-button">Netlify</div>
-                </div>
-            </div>
-        </section>
-
 
             <!-- Projects Section -->
-            <section id="projects" class="max-w-6xl mx-auto px-6 mb-16" data-aos="fade-left">
-                <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                    <h2 class="text-2xl font-bold mb-4">Projects</h2>
-                    <div class="space-y-4">
-                        <div
-                            class="transition transform hover:scale-[1.02] hover:shadow-lg p-4 rounded-lg bg-[#121238]"
-                        >
-                            <h3 class="text-lg font-semibold">💰 Personal Finance Tracker</h3>
-                            <p class="text-sm text-gray-300">
-                                Track personal expenses and income using this clean web app.
-                            </p>
+            <section id="projects" class="max-w-6xl mx-auto px-6 mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-center mb-10 gradient-text">
+                    <i class="fas fa-project-diagram mr-3"></i>Featured Projects
+                </h2>
+                <p class="text-center text-gray-400 mb-12 text-lg">
+                    Here are some of my recent projects that showcase my skills and experience.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div
+                        class="project-card p-6 rounded-xl shadow-lg hover-lift"
+                        data-aos="fade-right"
+                    >
+                        <div class="project-icon mb-4">
+                            <i class="fas fa-wallet text-4xl text-green-400"></i>
                         </div>
-                        <div
-                            class="transition transform hover:scale-[1.02] hover:shadow-lg p-4 rounded-lg bg-[#121238]"
-                        >
-                            <h3 class="text-lg font-semibold">🛒 E-commerce Website</h3>
-                            <p class="text-sm text-gray-300">
-                                Platform with login, cart, and admin dashboard using React + Node.
-                            </p>
+                        <h3 class="text-2xl font-semibold mb-3 text-indigo-300">
+                            Personal Finance Tracker
+                        </h3>
+                        <p class="text-gray-300 mb-4 leading-relaxed">
+                            A comprehensive web application for tracking personal expenses and
+                            income with intuitive dashboard and analytics.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <button class="project-btn">
+                                <i class="fas fa-external-link-alt mr-2"></i>View Live
+                            </button>
+                            <button class="project-btn-outline">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="project-card p-6 rounded-xl shadow-lg hover-lift"
+                        data-aos="fade-left"
+                    >
+                        <div class="project-icon mb-4">
+                            <i class="fas fa-shopping-cart text-4xl text-blue-400"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3 text-indigo-300">
+                            E-commerce Platform
+                        </h3>
+                        <p class="text-gray-300 mb-4 leading-relaxed">
+                            Full-featured e-commerce platform with user authentication, shopping
+                            cart, and comprehensive admin dashboard.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <button class="project-btn">
+                                <i class="fas fa-external-link-alt mr-2"></i>View Live
+                            </button>
+                            <button class="project-btn-outline">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </button>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <hr class="border-t border-indigo-800 my-12 opacity-20" />
-
-
-
+            <!-- Section Divider -->
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="section-divider"></div>
+            </div>
 
             <!-- Contact Section -->
             <section id="contact" class="max-w-6xl mx-auto px-6 mb-16" data-aos="zoom-in">
-                <div class="bg-[#1a1a40] p-6 rounded-xl shadow-lg">
-                    <h2 class="text-2xl font-bold mb-4">Get In Touch</h2>
-                    <form class="space-y-3">
-                        <input
-                            type="text"
-                            placeholder="Name"
-                            required
-                            class="w-full px-4 py-2 rounded bg-black text-white"
-                        />
-                        <input
-                            type="email"
-                            placeholder="Email"
-                            required
-                            class="w-full px-4 py-2 rounded bg-black text-white"
-                        />
-                        <textarea
-                            placeholder="Message"
-                            required
-                            class="w-full px-4 py-2 rounded bg-black text-white"
-                        ></textarea>
-                        <button
-                            type="submit"
-                            class="bg-red-600 hover:bg-red-700 transition duration-300 transform hover:scale-105 px-6 py-2 rounded font-semibold"
-                        >
-                            Send Message
+                <h2 class="text-4xl font-bold text-center mb-10 gradient-text">
+                    <i class="fas fa-envelope mr-3"></i>Get In Touch
+                </h2>
+                <p class="text-center text-gray-400 mb-12 text-lg">
+                    Have a project in mind? Let's work together to bring your ideas to life.
+                </p>
+
+                <div class="glass-card p-8 rounded-xl shadow-lg max-w-2xl mx-auto">
+                    <form class="contact-form space-y-6" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">
+                                <i class="fas fa-user mr-2"></i>Full Name
+                            </label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required
+                                class="form-input"
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">
+                                <i class="fas fa-envelope mr-2"></i>Email Address
+                            </label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email address"
+                                required
+                                class="form-input"
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">
+                                <i class="fas fa-tag mr-2"></i>Subject
+                            </label>
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What's this about?"
+                                required
+                                class="form-input"
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">
+                                <i class="fas fa-comment mr-2"></i>Message
+                            </label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Tell me about your project or inquiry..."
+                                required
+                                class="form-input resize-none"
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn w-full">
+                            <i class="fas fa-paper-plane mr-2"></i>Send Message
                         </button>
                     </form>
+
+                    <!-- Social Links -->
+                    <div class="mt-8 pt-6 border-t border-indigo-800/30">
+                        <div class="flex justify-center space-x-6">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
 
-
-
         <!-- Footer -->
-        <footer class="text-center py-6 bg-[#1a1a40] text-gray-400 text-sm select-none">
-            © 2024 Lakidu Minosha. All rights reserved.
+        <footer
+            class="text-center py-8 bg-black/50 backdrop-blur-md text-gray-400 border-t border-indigo-800/30"
+        >
+            <div class="max-w-6xl mx-auto px-6">
+                <p class="text-lg">© 2024 Lakidu Minosha. All rights reserved.</p>
+                <p class="text-sm mt-2 opacity-75">
+                    Made with <i class="fas fa-heart text-red-500"></i> and lots of coffee
+                </p>
+            </div>
         </footer>
+
+        <!-- Back to Top Button -->
+        <button id="backToTop" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
 
         <!-- AOS JS -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
