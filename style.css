@@ -320,20 +320,23 @@ body {
 }
 
 .timeline-dot {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
     background: var(--bg-primary);
-    border: 4px solid var(--primary-color);
+    border: 6px solid var(--primary-color);
     border-radius: 50%;
     position: relative;
     z-index: 10;
     transition: all 0.3s ease;
-    box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+    box-shadow: 0 0 25px rgba(99, 102, 241, 0.7);
+    font-weight: bold;
+    margin-left: 18px; /* Add space between dot and line for left items */
+    margin-right: 18px; /* Add space for right items */
 }
 
 .timeline-dot.active {
     border-color: var(--secondary-color);
-    box-shadow: 0 0 20px rgba(236, 72, 153, 0.7);
+    box-shadow: 0 0 32px rgba(236, 72, 153, 0.9);
     animation: pulse 2s infinite;
 }
 
