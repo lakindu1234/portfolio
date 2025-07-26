@@ -7,18 +7,29 @@ AOS.init({
     once: true,
 });
 
-// EmailJS form submission handler
+// Initialize EmailJS
+emailjs.init('0WQgKOw0-i0mnj4ya'); // Replace with your Public Key
+
+// Contact Form Handler
 document.getElementById('contactForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this).then(
-        function () {
-            alert('✅ Message sent successfully!');
+    const formData = new FormData(this);
+
+    const templateParams = {
+        name: formData.get('name'),
+        email: formData.get('email'),
+        subject: formData.get('subject'),
+        message: formData.get('message'),
+    };
+
+    emailjs.send('service_uwzol6t', 'template_gsbrsug', templateParams).then(
+        function (response) {
+            alert('Message sent successfully!');
             document.getElementById('contactForm').reset();
         },
         function (error) {
-            console.error('❌ Failed to send message:', error);
-            alert('⚠️ Failed to send message. Please try again later.');
+            alert('Failed to send message. Please try again.');
         }
     );
 });
