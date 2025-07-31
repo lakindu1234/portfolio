@@ -639,3 +639,11 @@ footer {
     border-top: 1px solid var(--glass-border);
     user-select: none;
 }
+
+.glass-card {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--shadow-glow);
+    border-radius: 1rem;
+    transition: box-shadow 0.2s;
+}
