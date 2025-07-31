@@ -647,3 +647,10 @@ footer {
     border-radius: 1rem;
     transition: box-shadow 0.2s;
 }
+
+/* Image styling for certificate previews */
+#achievements img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
