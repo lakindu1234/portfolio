@@ -605,8 +605,7 @@ body {
     width: 75%;
 }
 
-/* Additional Hover Effects */
-.hover-lift {
+Additional Hover Effects .hover-lift {
     transition: all 0.3s ease;
 }
 
