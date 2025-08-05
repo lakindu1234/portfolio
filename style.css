@@ -188,21 +188,6 @@ header {
     transform: translateY(-2px);
 }
 
-/* Floating Animation */
-.floating-image {
-    animation: floatAnimation 3s ease-in-out infinite;
-}
-
-@keyframes floatAnimation {
-    0%,
-    100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-15px);
-    }
-}
-
 /* ENHANCED BUTTON STYLES */
 .glow-button {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
@@ -788,7 +773,6 @@ footer {
         text-align: center;
         gap: 2rem;
     }
-
 
     .gradient-text {
         font-size: 2.5rem !important;
