@@ -789,9 +789,6 @@ footer {
         gap: 2rem;
     }
 
-    .md\\:w-1\\/2 {
-        width: 100%;
-    }
 
     .gradient-text {
         font-size: 2.5rem !important;
