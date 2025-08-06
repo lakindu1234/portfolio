@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="Modifications">
+    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="Modifications in files locations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -99,7 +99,7 @@
       <workItem from="1752601726833" duration="1292000" />
       <workItem from="1752682881401" duration="341000" />
       <workItem from="1752686960354" duration="3620000" />
-      <workItem from="1754451740204" duration="246000" />
+      <workItem from="1754451740204" duration="835000" />
     </task>
     <task id="LOCAL-00001" summary="File Structure">
       <option name="closed" value="true" />
@@ -413,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752690477135</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Modifications in files locations">
+      <option name="closed" value="true" />
+      <created>1754452001042</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1754452001042</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project card part" />
     <MESSAGE value="Contact section" />
     <MESSAGE value="Connect JS part" />
     <MESSAGE value="CSS General Reset" />
@@ -456,6 +463,7 @@
     <MESSAGE value="Normal improvemnts" />
     <MESSAGE value="add tailwin css and modify the code" />
     <MESSAGE value="Modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifications" />
+    <MESSAGE value="Modifications in files locations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications in files locations" />
   </component>
 </project>
