@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="Modifications in files locations in dp">
+    <list default="true" id="65c33bea-b506-4032-ba98-e1c656326c2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -99,7 +99,8 @@
       <workItem from="1752601726833" duration="1292000" />
       <workItem from="1752682881401" duration="341000" />
       <workItem from="1752686960354" duration="3620000" />
-      <workItem from="1754451740204" duration="1405000" />
+      <workItem from="1754451740204" duration="1543000" />
+      <workItem from="1754458004265" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="File Structure">
       <option name="closed" value="true" />
@@ -437,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754453124459</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="modify all updates and fix alll errors in the main structures">
+      <option name="closed" value="true" />
+      <created>1754453207818</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1754453207818</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Connect JS part" />
     <MESSAGE value="CSS General Reset" />
     <MESSAGE value="Css for navbar" />
     <MESSAGE value="CSS nav Link" />
@@ -480,6 +488,7 @@
     <MESSAGE value="Modifications" />
     <MESSAGE value="Modifications in files locations" />
     <MESSAGE value="Modifications in files locations in dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifications in files locations in dp" />
+    <MESSAGE value="modify all updates and fix alll errors in the main structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify all updates and fix alll errors in the main structures" />
   </component>
 </project>
