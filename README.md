@@ -1,3 +1,4 @@
 # Portfolio
 
-Mainly Develop by HTML , CSS, JS with EMAIL. js with resoposive to all devices 
+Mainly developed by HTML, CSS, JS, and EMAIL. JS with responsive to all devices 
+
