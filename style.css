@@ -1,4 +1,4 @@
-/* Professional Black & White + Tech Accent Theme */
+/* Professional Black & White Theme */
 :root {
     --primary-color: #ffffff; /* Pure white accent */
     --secondary-color: #e5e5e5; /* Light gray accent */
@@ -112,7 +112,6 @@ body {
     background-clip: text;
     font-weight: 700;
 }
-
 /* ENHANCED NAVIGATION STYLES */
 header {
     position: sticky;
@@ -198,6 +197,7 @@ header {
 }
 
 /* ENHANCED BUTTON STYLES */
+/* Example of buttons updated */
 .glow-button {
     background: linear-gradient(135deg, #ffffff, #d0d0d0);
     color: #000000;
