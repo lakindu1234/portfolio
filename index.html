@@ -642,6 +642,111 @@
 
                 <!-- Grid of 2 Columns -->
                 <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Project - DocQA RAG System -->
+                    <div
+                        class="project-card p-6 rounded-xl shadow-lg hover-lift md:col-span-2"
+                        data-aos="fade-up"
+                    >
+                        <div class="project-icon mb-4">
+                            <i class="fas fa-file-alt text-4xl text-cyan-400"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3 text-indigo-300">
+                            DocQA — Document Question-Answering Web App (RAG System)
+                        </h3>
+                        <p class="text-gray-300 mb-4 leading-relaxed">
+                            A full-stack Retrieval-Augmented Generation (RAG) application that lets
+                            you upload documents (PDF, TXT, DOCX), index them with vector
+                            embeddings, and ask natural-language questions — powered entirely by
+                            free, open-source models. No ChatGPT. No paid API. Uses Arcee AI
+                            Trinity (free LLM via OpenRouter) and HuggingFace all-MiniLM-L6-v2
+                            (free local embeddings). Features drag &amp; drop file upload, automatic
+                            document chunking with RecursiveCharacterTextSplitter, FAISS vector
+                            search, source document references, and a responsive UI built with
+                            Next.js 14, React 18, and Tailwind CSS.
+                        </p>
+
+                        <!-- Architecture Overview -->
+                        <div class="mb-4 p-4 rounded-lg bg-white/5 border border-indigo-500/20">
+                            <h4 class="text-sm font-semibold text-indigo-400 mb-2">
+                                <i class="fas fa-sitemap mr-2"></i>Architecture
+                            </h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                Next.js Frontend (React + TypeScript) ↔ Flask Backend REST API →
+                                Document Processor (PyPDF / TextLoader / Docx) → HuggingFace
+                                Embedding Service (all-MiniLM-L6-v2) → FAISS Vector Store →
+                                LLM Service (Arcee AI Trinity via OpenRouter) → Answer + Sources
+                            </p>
+                        </div>
+
+                        <!-- Tech Stack -->
+                        <div class="mb-4 p-4 rounded-lg bg-white/5 border border-indigo-500/20">
+                            <h4 class="text-sm font-semibold text-indigo-400 mb-3">
+                                <i class="fas fa-layer-group mr-2"></i>Tech Stack
+                            </h4>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-400">
+                                <div><span class="text-indigo-300 font-medium">Frontend:</span> Next.js 14, React 18, TypeScript 5.5, Tailwind CSS 3.4</div>
+                                <div><span class="text-indigo-300 font-medium">Backend:</span> Python 3.11+, Flask 3.0, LangChain 0.2</div>
+                                <div><span class="text-indigo-300 font-medium">LLM:</span> Arcee AI Trinity (free, via OpenRouter)</div>
+                                <div><span class="text-indigo-300 font-medium">Embeddings:</span> HuggingFace all-MiniLM-L6-v2 (local, free)</div>
+                                <div><span class="text-indigo-300 font-medium">Vector DB:</span> FAISS (local, file-persisted)</div>
+                                <div><span class="text-indigo-300 font-medium">HTTP Client:</span> Axios 1.7</div>
+                            </div>
+                        </div>
+
+                        <!-- Key Features -->
+                        <div class="mb-4 p-4 rounded-lg bg-white/5 border border-indigo-500/20">
+                            <h4 class="text-sm font-semibold text-indigo-400 mb-2">
+                                <i class="fas fa-star mr-2"></i>Key Features
+                            </h4>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 text-sm text-gray-400">
+                                <div>✦ Drag &amp; Drop File Upload (PDF, TXT, DOCX)</div>
+                                <div>✦ Automatic Document Chunking</div>
+                                <div>✦ Local Embeddings (no API key needed)</div>
+                                <div>✦ FAISS Lightning-Fast Vector Search</div>
+                                <div>✦ 100% Free LLM (no ChatGPT/OpenAI)</div>
+                                <div>✦ Source Document References</div>
+                                <div>✦ Responsive Modern UI</div>
+                                <div>✦ Health Check Endpoint</div>
+                            </div>
+                        </div>
+
+                        <!-- API Endpoints -->
+                        <div class="mb-4 p-4 rounded-lg bg-white/5 border border-indigo-500/20">
+                            <h4 class="text-sm font-semibold text-indigo-400 mb-2">
+                                <i class="fas fa-plug mr-2"></i>API Endpoints
+                            </h4>
+                            <div class="text-sm text-gray-400 space-y-1">
+                                <div><span class="text-green-400 font-mono">GET</span> <span class="font-mono">/health</span> — Health check endpoint</div>
+                                <div><span class="text-yellow-400 font-mono">POST</span> <span class="font-mono">/upload</span> — Upload &amp; index a document (multipart/form-data)</div>
+                                <div><span class="text-yellow-400 font-mono">POST</span> <span class="font-mono">/query</span> — Ask a question about uploaded documents (JSON)</div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-tag">Python 3.11+</span>
+                            <span class="tech-tag">Flask 3.0</span>
+                            <span class="tech-tag">Next.js 14</span>
+                            <span class="tech-tag">React 18</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">FAISS</span>
+                            <span class="tech-tag">HuggingFace</span>
+                            <span class="tech-tag">OpenRouter</span>
+                            <span class="tech-tag">Arcee AI</span>
+                            <span class="tech-tag">RAG</span>
+                        </div>
+                        <a
+                            href="https://github.com/lakindu1234/RAG-System-Document-Question-Answering-web-app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button class="project-btn-outline">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </button>
+                        </a>
+                    </div>
+
                     <!-- Project 5 -->
                     <div
                         class="project-card p-6 rounded-xl shadow-lg hover-lift"
