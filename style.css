@@ -1,17 +1,17 @@
-/* Professional Black & White Theme */
+/* Professional Dark Blue Theme */
 :root {
     --primary-color: #ffffff; /* Pure white accent */
     --secondary-color: #e5e5e5; /* Light gray accent */
-    --accent-color: #b8b8b8; /* Medium gray accent */
-    --bg-primary: #000000; /* Pure black background */
-    --bg-secondary: #0a0a0a; /* Slightly lighter black */
-    --bg-tertiary: #141414;
+    --accent-color: #7aa2f7; /* Soft blue accent */
+    --bg-primary: #0a0f1a; /* Dark navy background */
+    --bg-secondary: #0d1525; /* Slightly lighter navy */
+    --bg-tertiary: #111d33;
     --text-primary: #ffffff; /* Pure white text */
-    --text-secondary: #a0a0a0; /* Gray text */
+    --text-secondary: #8ba4c4; /* Muted blue-gray text */
     --text-accent: #ffffff; /* White accent for text */
-    --glass-bg: rgba(20, 20, 20, 0.92);
-    --glass-border: rgba(255, 255, 255, 0.12);
-    --shadow-glow: 0 0 24px rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(13, 21, 37, 0.92);
+    --glass-border: rgba(122, 162, 247, 0.15);
+    --shadow-glow: 0 0 24px rgba(122, 162, 247, 0.1);
 }
 
 /* Reset and Base Styles */
@@ -64,11 +64,11 @@ body {
     z-index: -1;
     background-image: radial-gradient(
             circle at 25% 25%,
-            rgba(255, 255, 255, 0.03) 0%,
+            rgba(122, 162, 247, 0.06) 0%,
             transparent 50%
         ),
-        radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.02) 0%, transparent 50%),
-        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.01) 0%, transparent 50%);
+        radial-gradient(circle at 75% 75%, rgba(70, 120, 220, 0.04) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(100, 140, 230, 0.03) 0%, transparent 50%);
     animation: particleFloat 20s ease-in-out infinite;
 }
 
@@ -106,7 +106,7 @@ body {
 
 /* Typography */
 .gradient-text {
-    background: linear-gradient(135deg, #ffffff 0%, #b8b8b8 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #7aa2f7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -118,8 +118,8 @@ header {
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(12px);
-    background: rgba(0, 0, 0, 0.85);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(10, 15, 26, 0.9);
+    border-bottom: 1px solid rgba(122, 162, 247, 0.1);
 }
 
 .max-w-6xl {
@@ -175,8 +175,8 @@ header {
 }
 
 .nav-link:hover {
-    color: var(--primary-color);
-    background: rgba(255, 255, 255, 0.08);
+    color: var(--accent-color);
+    background: rgba(122, 162, 247, 0.1);
     transform: translateY(-2px);
 }
 
@@ -191,9 +191,9 @@ header {
 }
 
 .glass-card:hover {
-    box-shadow: 0 0 32px rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 32px rgba(122, 162, 247, 0.15);
     transform: translateY(-2px);
-    border-color: rgba(255, 255, 255, 0.18);
+    border-color: rgba(122, 162, 247, 0.25);
 }
 
 /* ENHANCED BUTTON STYLES */
