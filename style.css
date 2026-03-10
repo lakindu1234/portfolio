@@ -1,15 +1,15 @@
-/* Professional Dark Blue Theme */
+/* Professional Dark Theme */
 :root {
     --primary-color: #ffffff; /* Pure white accent */
     --secondary-color: #e5e5e5; /* Light gray accent */
     --accent-color: #7aa2f7; /* Soft blue accent */
-    --bg-primary: #0a0f1a; /* Dark navy background */
-    --bg-secondary: #0d1525; /* Slightly lighter navy */
-    --bg-tertiary: #111d33;
+    --bg-primary: #050508; /* Near-black background */
+    --bg-secondary: #0a0a0f; /* Slightly lighter */
+    --bg-tertiary: #101018;
     --text-primary: #ffffff; /* Pure white text */
-    --text-secondary: #8ba4c4; /* Muted blue-gray text */
+    --text-secondary: #9a9ab0; /* Muted gray text */
     --text-accent: #ffffff; /* White accent for text */
-    --glass-bg: rgba(13, 21, 37, 0.92);
+    --glass-bg: rgba(10, 10, 15, 0.92);
     --glass-border: rgba(122, 162, 247, 0.15);
     --shadow-glow: 0 0 24px rgba(122, 162, 247, 0.1);
 }
@@ -115,7 +115,7 @@ header {
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(12px);
-    background: rgba(10, 15, 26, 0.9);
+    background: rgba(5, 5, 8, 0.9);
     border-bottom: 1px solid rgba(122, 162, 247, 0.1);
 }
 
