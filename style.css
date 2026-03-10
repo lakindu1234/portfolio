@@ -453,7 +453,7 @@ header {
 
 .project-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(122, 162, 247, 0.3);
 }
 
 .project-btn-outline {
@@ -473,8 +473,8 @@ header {
 }
 
 .project-btn-outline:hover {
-    background: var(--primary-color);
-    color: #000000;
+    background: var(--accent-color);
+    color: #0a0f1a;
     transform: translateY(-2px);
 }
 
@@ -506,9 +506,9 @@ header {
 }
 
 .form-input:focus {
-    border-color: var(--primary-color);
+    border-color: var(--accent-color);
     outline: none;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 20px rgba(122, 162, 247, 0.2);
 }
 
 .form-input::placeholder {
@@ -516,8 +516,8 @@ header {
 }
 
 .submit-btn {
-    background: linear-gradient(135deg, #ffffff, #d0d0d0);
-    color: #000000;
+    background: linear-gradient(135deg, #7aa2f7, #5478c9);
+    color: #ffffff;
     padding: 1rem 2rem;
     border: none;
     border-radius: 0.75rem;
@@ -525,7 +525,7 @@ header {
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(122, 162, 247, 0.3);
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -534,7 +534,7 @@ header {
 
 .submit-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 30px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 30px rgba(122, 162, 247, 0.4);
 }
 
 .submit-btn:active {
@@ -558,10 +558,10 @@ header {
 }
 
 .social-link:hover {
-    background: var(--primary-color);
-    color: #000000;
+    background: var(--accent-color);
+    color: #0a0f1a;
     transform: translateY(-3px) scale(1.1);
-    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px 20px rgba(122, 162, 247, 0.3);
 }
 
 /* Back to Top Button */
@@ -571,8 +571,8 @@ header {
     right: 2rem;
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, #ffffff, #d0d0d0);
-    color: #000000;
+    background: linear-gradient(135deg, #7aa2f7, #5478c9);
+    color: #ffffff;
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -581,7 +581,7 @@ header {
     visibility: hidden;
     transition: all 0.3s ease;
     z-index: 100;
-    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(122, 162, 247, 0.3);
 }
 
 .back-to-top.show {
@@ -591,7 +591,7 @@ header {
 
 .back-to-top:hover {
     transform: translateY(-3px) scale(1.1);
-    box-shadow: 0 6px 30px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 30px rgba(122, 162, 247, 0.4);
 }
 
 /* Focus States for Accessibility */
@@ -639,7 +639,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+    background: linear-gradient(45deg, rgba(122, 162, 247, 0.06), rgba(122, 162, 247, 0.03));
     border-radius: 1rem;
     opacity: 0;
     transition: opacity 0.3s ease;
